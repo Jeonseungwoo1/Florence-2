@@ -1,8 +1,8 @@
-from .config import BATCH_SIZE
-from .dataset import get_dataloader
-from .model import load_model
-from .train import train_model
-from .inference import run_example
+from florence2 import BATCH_SIZE
+from florence2 import get_dataloader
+from florence2 import load_model
+from florence2 import train_model
+from florence2 import run_example
 
 
 def main():
